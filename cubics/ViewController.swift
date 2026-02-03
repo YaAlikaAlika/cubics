@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             let random = Int.random(in: 1...6)
             let image = UIImage (named: "cubic\(random)")
             UIView.transition(with: imageView, duration: 0.2, options: .transitionCrossDissolve) {
-                imageView.image = image. // тест для fork
+                imageView.image = image. // тест для fork чтобы все было понятно
             }
         }
         
